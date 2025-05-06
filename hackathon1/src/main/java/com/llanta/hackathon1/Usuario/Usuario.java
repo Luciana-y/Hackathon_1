@@ -19,7 +19,7 @@ public class Usuario {
     private Empresa empresa;
 
     @OneToMany(mappedBy = "usuario")
-    private List<Límite> limites;
+    private List<Limite> limites;
 
     @OneToMany(mappedBy = "usuario")
     private List<Solicitud> solicitudes;
